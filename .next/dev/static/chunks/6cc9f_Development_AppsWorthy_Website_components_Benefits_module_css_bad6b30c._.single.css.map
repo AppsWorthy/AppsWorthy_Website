@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/AppsWorthy/Development/AppsWorthy_Website/components/Benefits.module.css"],"sourcesContent":[".benefits {\n    padding: 100px 24px;\n    background-color: #fff;\n}\n\n.container {\n    max-width: 1200px;\n    margin: 0 auto;\n}\n\n.title {\n    text-align: center;\n    margin-bottom: 60px !important;\n}\n\n.grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));\n    gap: 40px;\n}\n\n.benefitItem {\n    text-align: center;\n    padding: 32px;\n    border-radius: 20px;\n    transition: background-color 0.3s ease;\n}\n\n.benefitItem:hover {\n    background-color: #f8fafc;\n}\n\n.iconWrapper {\n    width: 64px;\n    height: 64px;\n    background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);\n    border-radius: 16px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto 24px;\n    color: #2563eb;\n}\n\n.benefitTitle {\n    margin-bottom: 16px !important;\n    font-weight: 700 !important;\n}\n\n.benefitText {\n    color: #64748b;\n    line-height: 1.6 !important;\n}"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;AAKA;;;;;AAKA;;;;;;AAMA;;;;;;;AAOA;;;;AAIA;;;;;;;;;;;;AAYA;;;;;AAKA"}}]
+}

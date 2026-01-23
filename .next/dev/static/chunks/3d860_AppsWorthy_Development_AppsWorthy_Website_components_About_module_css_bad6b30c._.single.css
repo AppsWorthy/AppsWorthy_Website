@@ -1,0 +1,62 @@
+/* [project]/Desktop/AppsWorthy/Development/AppsWorthy_Website/components/About.module.css [app-client] (css) */
+.About-module__boNibW__about {
+  text-align: center;
+  background-color: #fff;
+  padding: 100px 24px;
+}
+
+.About-module__boNibW__content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.About-module__boNibW__title {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 24px !important;
+}
+
+.About-module__boNibW__title:after {
+  content: "";
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  border-radius: 2px;
+  width: 60px;
+  height: 4px;
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.About-module__boNibW__description {
+  color: #475569;
+  font-size: 1.25rem !important;
+  line-height: 1.8 !important;
+}
+
+.About-module__boNibW__badges {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 48px;
+  display: flex;
+}
+
+.About-module__boNibW__badge {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 99px;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 24px;
+  transition: all .3s;
+  display: flex;
+}
+
+.About-module__boNibW__badge:hover {
+  background: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px #0000001a;
+}
+
+/*# sourceMappingURL=3d860_AppsWorthy_Development_AppsWorthy_Website_components_About_module_css_bad6b30c._.single.css.map*/

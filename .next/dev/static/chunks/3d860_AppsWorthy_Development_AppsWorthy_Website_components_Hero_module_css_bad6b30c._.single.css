@@ -1,0 +1,114 @@
+/* [project]/Desktop/AppsWorthy/Development/AppsWorthy_Website/components/Hero.module.css [app-client] (css) */
+.Hero-module__mYA6uq__hero {
+  background: radial-gradient(circle at 70% 30%, #2563eb0d 0%, #0000 50%), radial-gradient(circle at 30% 70%, #7c3aed0d 0%, #0000 50%);
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 80px 24px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.Hero-module__mYA6uq__container {
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.Hero-module__mYA6uq__headline {
+  animation: .8s ease-out Hero-module__mYA6uq__slideUp;
+}
+
+.Hero-module__mYA6uq__subheadline {
+  color: #475569;
+  max-width: 700px;
+  animation: .8s ease-out .2s both Hero-module__mYA6uq__slideUp;
+  margin: 24px auto 40px !important;
+}
+
+.Hero-module__mYA6uq__actions {
+  justify-content: center;
+  gap: 16px;
+  animation: .8s ease-out .4s both Hero-module__mYA6uq__slideUp;
+  display: flex;
+}
+
+.Hero-module__mYA6uq__visual {
+  margin-top: 60px;
+  animation: 1.2s ease-out .6s both Hero-module__mYA6uq__fadeIn;
+}
+
+.Hero-module__mYA6uq__mockup {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  transition: transform .5s;
+  animation: 6s ease-in-out infinite Hero-module__mYA6uq__float;
+  display: flex;
+}
+
+.Hero-module__mYA6uq__heroImage {
+  border: 4px solid #fff;
+  border-radius: 24px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 25px 50px -12px #0003;
+}
+
+.Hero-module__mYA6uq__mockup:hover {
+  transform: scale(1.05);
+}
+
+@keyframes Hero-module__mYA6uq__float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes Hero-module__mYA6uq__slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes Hero-module__mYA6uq__fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .Hero-module__mYA6uq__hero {
+    min-height: auto;
+    padding: 60px 20px;
+  }
+
+  .Hero-module__mYA6uq__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/*# sourceMappingURL=3d860_AppsWorthy_Development_AppsWorthy_Website_components_Hero_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,53 @@
+.benefits {
+    padding: 100px 24px;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 60px !important;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+}
+
+.benefitItem {
+    text-align: center;
+    padding: 32px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.benefitItem:hover {
+    background-color: #f8fafc;
+}
+
+.iconWrapper {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+    color: #2563eb;
+}
+
+.benefitTitle {
+    margin-bottom: 16px !important;
+    font-weight: 700 !important;
+}
+
+.benefitText {
+    color: #64748b;
+    line-height: 1.6 !important;
+}
