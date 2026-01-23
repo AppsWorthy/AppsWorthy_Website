@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   min-height: 90vh;
-  padding: 80px 24px;
+  padding: 160px 24px 80px;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -44,10 +44,10 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 700px;
+  max-width: 500px;
   margin: 0 auto;
   transition: transform .5s;
-  animation: 6s ease-in-out infinite Hero-module__mYA6uq__float;
+  animation: 8s ease-in-out infinite Hero-module__mYA6uq__breath;
   display: flex;
 }
 
@@ -63,17 +63,20 @@
   transform: scale(1.05);
 }
 
-@keyframes Hero-module__mYA6uq__float {
+@keyframes Hero-module__mYA6uq__breath {
   0% {
-    transform: translateY(0);
+    opacity: 1;
+    transform: scale(1);
   }
 
   50% {
-    transform: translateY(-20px);
+    opacity: .98;
+    transform: scale(1.02);
   }
 
   100% {
-    transform: translateY(0);
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
@@ -102,7 +105,7 @@
 @media (max-width: 768px) {
   .Hero-module__mYA6uq__hero {
     min-height: auto;
-    padding: 60px 20px;
+    padding: 100px 20px 60px;
   }
 
   .Hero-module__mYA6uq__actions {

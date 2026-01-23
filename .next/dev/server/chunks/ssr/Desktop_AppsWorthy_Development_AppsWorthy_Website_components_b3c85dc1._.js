@@ -109,9 +109,9 @@ function Header() {
 
 __turbopack_context__.v({
   "actions": "Hero-module__mYA6uq__actions",
+  "breath": "Hero-module__mYA6uq__breath",
   "container": "Hero-module__mYA6uq__container",
   "fadeIn": "Hero-module__mYA6uq__fadeIn",
-  "float": "Hero-module__mYA6uq__float",
   "headline": "Hero-module__mYA6uq__headline",
   "hero": "Hero-module__mYA6uq__hero",
   "heroImage": "Hero-module__mYA6uq__heroImage",
