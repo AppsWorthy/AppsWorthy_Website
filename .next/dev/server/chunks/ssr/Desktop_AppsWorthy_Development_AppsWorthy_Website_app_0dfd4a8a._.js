@@ -1,7 +1,7 @@
 module.exports = [
 "[project]/Desktop/AppsWorthy/Development/AppsWorthy_Website/app/icon.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/icon.de3cceb1.png");}),
+__turbopack_context__.v("/_next/static/media/icon.cb4efb7a.png");}),
 "[project]/Desktop/AppsWorthy/Development/AppsWorthy_Website/app/icon.png.mjs { IMAGE => \"[project]/Desktop/AppsWorthy/Development/AppsWorthy_Website/app/icon.png (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
