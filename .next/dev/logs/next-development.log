@@ -111,3 +111,5 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
+[00:28:00.329] Server  LOG     ✓ Compiled in 572ms
+[00:46:08.533] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
