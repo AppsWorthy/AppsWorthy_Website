@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/AppsWorthy/Development/AppsWorthy_Website/components/Footer.module.css"],"sourcesContent":[".footer {\n    padding: 80px 24px 40px;\n    background-color: #0f172a;\n    color: #fff;\n}\n\n.container {\n    max-width: 1200px;\n    margin: 0 auto;\n}\n\n.top {\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start;\n    margin-bottom: 60px;\n}\n\n.brand {\n    max-width: 300px;\n}\n\n.tagline {\n    color: #94a3b8;\n    margin-top: 12px !important;\n    font-size: 0.9rem !important;\n}\n\n.bottom {\n    padding-top: 40px;\n    border-top: 1px solid #1e293b;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n\n.copyright {\n    color: #64748b;\n    font-size: 0.85rem !important;\n}\n\n@media (max-width: 768px) {\n    .top {\n        flex-direction: column;\n        gap: 40px;\n    }\n\n    .bottom {\n        flex-direction: column;\n        gap: 20px;\n        text-align: center;\n    }\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;AAKA;;;;;;;AAOA;;;;AAIA;;;;;;AAMA;;;;;;;;AAQA;;;;;AAKA;EACI;;;;;EAKA"}}]
-}

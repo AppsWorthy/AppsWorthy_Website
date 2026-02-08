@@ -1,3 +1,0 @@
-module.exports=[70254,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(57901);a.n(d("[project]/Desktop/AppsWorthy/Development/AppsWorthy_Website/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},43375,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(57901);a.n(d("[project]/Desktop/AppsWorthy/Development/AppsWorthy_Website/node_modules/next/dist/client/components/builtin/global-error.js"))},13022,a=>{"use strict";a.i(70254);var b=a.i(43375);a.n(b)}];
-
-//# sourceMappingURL=8c925_next_dist_client_components_builtin_global-error_c650415c.js.map

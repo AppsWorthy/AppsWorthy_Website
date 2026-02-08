@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/AppsWorthy/Development/AppsWorthy_Website/components/Header.module.css"],"sourcesContent":[".header {\n    position: fixed;\n    top: 0;\n    left: 0;\n    right: 0;\n    height: 80px;\n    background-color: rgba(255, 255, 255, 0.8);\n    backdrop-filter: blur(12px);\n    z-index: 1000;\n    border-bottom: 1px solid rgba(226, 232, 240, 0.8);\n    display: flex;\n    align-items: center;\n}\n\n.container {\n    max-width: 1200px;\n    width: 100%;\n    margin: 0 auto;\n    padding: 0 24px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n\n.logo {\n    font-weight: 800 !important;\n    font-size: 1.5rem !important;\n    cursor: pointer;\n}\n\n.nav {\n    display: flex;\n    gap: 32px;\n    align-items: center;\n}\n\n.navLink {\n    color: #475569;\n    font-weight: 600;\n    font-size: 0.95rem;\n    cursor: pointer;\n    transition: color 0.2s;\n}\n\n.navLink:hover {\n    color: #2563eb;\n}\n\n@media (max-width: 768px) {\n    .nav {\n        display: none;\n    }\n}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;AAcA;;;;;;;;;;AAUA;;;;;;AAMA;;;;;;AAMA;;;;;;;;AAQA;;;;AAIA;EACI"}}]
-}
